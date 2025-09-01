@@ -490,10 +490,11 @@ export const Landing: React.FC = () => {
 
           <div className="border-t border-border mt-12 pt-8 text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-brand-red via-brand-orange to-brand-yellow rounded-lg flex items-center justify-center">
-                <Flame className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-gradient">ULTRATERM</span>
+              <img 
+                src="/lovable-uploads/02b7af8d-b517-4adb-866e-3ab6475e116f.png" 
+                alt="ULTRATERM Logo"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-foreground-muted">{t('footer.copyright')}</p>
           </div>

@@ -44,10 +44,11 @@ export const Navigation: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-brand-red via-brand-orange to-brand-yellow rounded-lg flex items-center justify-center">
-              <Flame className="h-5 w-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gradient">ULTRATERM</span>
+            <img 
+              src="/lovable-uploads/02b7af8d-b517-4adb-866e-3ab6475e116f.png" 
+              alt="ULTRATERM Logo"
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
