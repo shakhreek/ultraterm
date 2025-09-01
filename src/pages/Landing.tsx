@@ -71,8 +71,8 @@ export const Landing: React.FC = () => {
       <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 animated-bg opacity-30" />
         <div 
-          className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-20"
-          style={{ backgroundImage: `url(${heroImage})`, backgroundSize: '60%' }}
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          style={{ backgroundImage: `url(${heroImage})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-transparent" />
         
