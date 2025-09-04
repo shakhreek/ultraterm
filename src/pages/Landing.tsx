@@ -491,9 +491,9 @@ export const Landing: React.FC = () => {
           <div className="border-t border-border mt-12 pt-8 text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <img 
-                src="/lovable-uploads/02b7af8d-b517-4adb-866e-3ab6475e116f.png" 
+                src="/lovable-uploads/logo.png" 
                 alt="ULTRATERM Logo"
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
             </div>
             <p className="text-foreground-muted">{t('footer.copyright')}</p>
