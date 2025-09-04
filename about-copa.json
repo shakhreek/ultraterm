@@ -1,0 +1,248 @@
+{
+  "radiators": [
+    {
+      "key": "standard_plane_surface",
+      "name": {
+        "uz": "Standart tekis sirtli radiatorlar",
+        "en": "Standard Plane Surface Radiators",
+        "ru": "Стандартные радиаторы с плоской поверхностью"
+      },
+      "type": "Horizontal Decorative Panel Radiator",
+      "features": {
+        "aesthetic_design": {
+          "uz": "Estetik dizayn, zamonaviy ko‘rinish",
+          "en": "Aesthetic design, stylish appearance",
+          "ru": "Эстетичный дизайн, стильный внешний вид"
+        },
+        "connections": {
+          "uz": "Patentlangan garnitür bilan alternativa ulanish imkoniyati",
+          "en": "Alternative connection possibility with patented garniture",
+          "ru": "Альтернативный способ подключения с запатентованной фурнитурой"
+        },
+        "dimensions": {
+          "uz": "Balandlik: 200, 300, 500, 600 mm. Uzunlik: 400, 600, 800 … 2600 mm",
+          "en": "Height: 200 mm, 300 mm, 500 mm, 600 mm. Length: 400 mm, 600 mm, 800 mm … 2600 mm",
+          "ru": "Высота: 200 мм, 300 мм, 500 мм, 600 мм. Длина: 400 мм, 600 мм, 800 мм … 2600 мм"
+        },
+        "safety": {
+          "uz": "Old sirtni qo‘l bilan teginish xavfsiz",
+          "en": "Front surface can be easily touched safely",
+          "ru": "Передняя поверхность безопасна для прикосновения"
+        },
+        "efficiency": {
+          "uz": "Tez isinish va maksimal yoqilg‘i tejash",
+          "en": "Fast heating and maximum fuel savings",
+          "ru": "Быстрый прогрев и максимальная экономия топлива"
+        },
+        "coating": {
+          "uz": "Ekologik suv asosidagi primer va RAL 9016 rang – epoksi-poliester kukunli bo‘yoq",
+          "en": "Environmentally friendly water-based primer paint; world standard color RAL 9016, epoxy polyester powder coating",
+          "ru": "Экологически чистая грунтовка на водной основе; стандартный цвет RAL 9016, эпоксидно-полиэстеровое порошковое покрытие"
+        },
+        "packaging": {
+          "uz": "Transport, saqlash va montajda zarbaga chidamli maxsus qadoqlash",
+          "en": "Special impact-resistant packaging during transport, storage and assembly",
+          "ru": "Упаковка, устойчивая к ударам при транспортировке, хранении и монтаже"
+        },
+        "warranty": {
+          "uz": "10 yillik kafolat * faqat Turkiyada amal qiladi",
+          "en": "Guarantee 10 Years *Only valid in Türkiye",
+          "ru": "Гарантия 10 лет *Действительна только в Турции"
+        },
+        "types": {
+          "uz": "Turlar: 11, 21, 22",
+          "en": "Type 11 – 21 – 22",
+          "ru": "Типы: 11 – 21 – 22"
+        }
+      },
+      "purpose": {
+        "uz": "Maktab, kasalxona va bog‘cha kabi joylarda xavfsiz foydalanish uchun mos",
+        "en": "Suitable for use in schools, hospitals and kindergartens due to safe front surface",
+        "ru": "Подходит для школ, больниц и детских садов благодаря безопасной передней поверхности"
+      }
+    },
+    {
+      "key": "vertical_standard_plane_surface",
+      "name": {
+        "uz": "Vertikal standart tekis sirtli radiatorlar",
+        "en": "Vertical Standard Plane Surface Radiators",
+        "ru": "Вертикальные радиаторы с плоской поверхностью"
+      },
+      "type": "Vertical Decorative Panel Radiator",
+      "features": {
+        "space_saving": {
+          "uz": "Cheklangan joylarda isitish imkoniyati",
+          "en": "Possibility of heating in limited spaces",
+          "ru": "Возможность отопления в ограниченных пространствах"
+        },
+        "connections": {
+          "uz": "4 yoki 6 kirish-chiqish ulanishlar",
+          "en": "Production suitable for 4 inlet and outlet or 6 inlet and outlet connection style",
+          "ru": "Подключение: 4 или 6 входов/выходов"
+        },
+        "dimensions": {
+          "uz": "Balandlik: 1600, 1800, 2000 mm. Uzunlik: 500, 600 mm",
+          "en": "Height: 1600 mm, 1800 mm, 2000 mm. Length: 500 mm, 600 mm",
+          "ru": "Высота: 1600 мм, 1800 мм, 2000 мм. Длина: 500 мм, 600 мм"
+        },
+        "efficiency": {
+          "uz": "Yuqori issiqlik samaradorligi va estetik dizayn",
+          "en": "High thermal efficiency; aesthetic design",
+          "ru": "Высокая тепловая эффективность; эстетичный дизайн"
+        },
+        "safety": {
+          "uz": "Old sirt xavfsiz teginish uchun mos",
+          "en": "Front surface allows safe touching",
+          "ru": "Передняя поверхность безопасна для прикосновения"
+        },
+        "coating": {
+          "uz": "Suv asosidagi primer, korroziyaga chidamli; RAL 9016 epoksi-poliester bo‘yoq",
+          "en": "Environmentally friendly water-based primer paint; corrosion resistant; world standard colour RAL 9016, epoxy polyester powder coating",
+          "ru": "Грунтовка на водной основе; коррозионно-стойкий; стандартный цвет RAL 9016, эпоксидно-полиэстеровое покрытие"
+        },
+        "packaging": {
+          "uz": "Maxsus zarbaga chidamli qadoqlash",
+          "en": "Special impact-resistant packaging during transport, storage and assembly",
+          "ru": "Упаковка, устойчивая к ударам при транспортировке, хранении и монтаже"
+        },
+        "warranty": {
+          "uz": "10 yillik kafolat * faqat Turkiyada",
+          "en": "Guarantee 10 Years *Only valid in Türkiye",
+          "ru": "Гарантия 10 лет *Действительна только в Турции"
+        },
+        "types": {
+          "uz": "Turlar: 10 – 20",
+          "en": "Type 10 – 20",
+          "ru": "Типы: 10 – 20"
+        }
+      },
+      "purpose": {
+        "uz": "Kuchli issiqlik quvvatini talab qiladigan tor joylar uchun ideal",
+        "en": "Ideal for narrow areas requiring high thermal power",
+        "ru": "Идеально для узких мест, требующих высокой тепловой мощности"
+      }
+    },
+    {
+      "key": "innova",
+      "name": {
+        "uz": "Innova",
+        "en": "Innova",
+        "ru": "Innova"
+      },
+      "type": "Panel Radiator",
+      "features": {
+        "design": {
+          "uz": "Oval kesilgan dizayn",
+          "en": "Oval cut design",
+          "ru": "Овальный срез"
+        },
+        "power": {
+          "uz": "Yuoqri issiqlik quvvati",
+          "en": "High thermal power",
+          "ru": "Высокая тепловая мощность"
+        },
+        "dimensions": {
+          "uz": "Balandliklar: 200,300,400,500,600,750,900 mm. Uzunliklar: 300…3000 mm",
+          "en": "Height: 200 mm, 300 mm, 400 mm, 500 mm, 600 mm, 750 mm, 900 mm. Length: 300 mm…3000 mm",
+          "ru": "Высота: 200 мм, 300 мм, 400 мм, 500 мм, 600 мм, 750 мм, 900 мм. Длина: 300 мм…3000 мм"
+        },
+        "warranty": {
+          "uz": "10 yillik kafolat * faqat Turkiyada",
+          "en": "Guarantee 10 Years *Only valid in Türkiye",
+          "ru": "Гарантия 10 лет *Действительна только в Турции"
+        },
+        "installation": {
+          "uz": "C, L, va pol montaj konsollari bilan oson o‘rnatish",
+          "en": "Easy installation with C console, L console and floor mounting console",
+          "ru": "Легкий монтаж с помощью консолей C, L и напольной консоли"
+        },
+        "coating": {
+          "uz": "Suv asosidagi primer, keyin RAL 9016 rangli epoksi-poliester bo‘yoq; korroziyaga, zarba, ob-havo va kimyoviy ta’sirlarga chidamli",
+          "en": "Painted with water-based primer, baked, then RAL 9016 epoxy polyester powder paint; resistant to corrosion, impacts, weather conditions and chemicals",
+          "ru": "Покрытие грунтовкой на водной основе, запекание, затем эпоксидно-полиэстеровым порошковым покрытием RAL 9016; устойчив к коррозии, ударам, погоде и химикатам"
+        },
+        "flexibility": {
+          "uz": "Turli tip, balandlik va uzunlik variantlari",
+          "en": "Produced in different types, heights and lengths",
+          "ru": "Производится в различных типах, высотах и длинах"
+        }
+      },
+      "purpose": {
+        "uz": "Samimiy va estetik ko‘rinish bilan yuqori isitish samaradorligi",
+        "en": "Elegant look with high heating efficiency",
+        "ru": "Элегантный внешний вид с высокой тепловой эффективностью"
+      }
+    },
+    {
+      "key": "mysia",
+      "name": {
+        "uz": "Mysia",
+        "en": "Mysia",
+        "ru": "Mysia"
+      },
+      "type": "Towel Radiator",
+      "features": {
+        "installation": {
+          "uz": "Tor joylarda oson o‘rnatish",
+          "en": "Easy assembly for tight spaces",
+          "ru": "Легкий монтаж в узких местах"
+        },
+        "design": {
+          "uz": "Dekorativ va zamonaviy dizayn; tekis va oval variantlar",
+          "en": "Decorative and stylish design; flat and oval options",
+          "ru": "Декоративный и стильный дизайн; плоские и овальные варианты"
+        },
+        "connection": {
+          "uz": "Quyi markaziy ulanishga mos ishlab chiqarish",
+          "en": "Production suitable for lower centre connection style",
+          "ru": "Производство под соединение снизу по центру"
+        },
+        "dimensions": {
+          "uz": "Balandlik: 600…1800 mm. Uzunlik: 400, 500, 600, 800 mm",
+          "en": "Height: 600 mm, 800 mm … 1800 mm. Length: 400 mm, 500 mm, 600 mm, 800 mm",
+          "ru": "Высота: 600 мм, 800 мм … 1800 мм. Длина: 400 мм, 500 мм, 600 мм, 800 мм"
+        },
+        "efficiency": {
+          "uz": "Estetik quvurlar va optimal issiqlik samaradorligi",
+          "en": "Aesthetic pipe arrangement and optimum thermal efficiency",
+          "ru": "Эстетичная разводка труб и оптимальная тепловая эффективность"
+        },
+        "corrosion_resistance": {
+          "uz": "Korroziyaga chidamli; nam joylar uchun qalinroq bo‘yoq",
+          "en": "Corrosion resistant; increased paint thickness for humid environments",
+          "ru": "Коррозионно-стойкий; утолщенное покрытие для влажных сред"
+        },
+        "optional_feature": {
+          "uz": "Ixtiyoriy isitish elementi mavjud",
+          "en": "Optional resistance option",
+          "ru": "Опциональная нагревательная вставка"
+        },
+        "coating": {
+          "uz": "RAL 9016 epoksi-poliester bo‘yoq",
+          "en": "World standard colour RAL 9016, epoxy polyester powder coating",
+          "ru": "Стандартный цвет RAL 9016, эпоксидно-полиэстеровое покрытие"
+        },
+        "packaging": {
+          "uz": "Zarbaga chidamli qadoqlash bilan yetkaziladi; aksessuarlar bilan o‘rnatishga tayyor",
+          "en": "Special impact-resistant packaging; ready for installation with accessories in the package",
+          "ru": "Упаковка устойчива к ударам; готово к установке с аксессуарами в комплекте"
+        },
+        "warranty": {
+          "uz": "5 yillik kafolat * faqat Turkiyada",
+          "en": "Guarantee 5 Years *Only valid in Türkiye",
+          "ru": "Гарантия 5 лет *Действительна только в Турции"
+        },
+        "types": {
+          "uz": "Turlar: Flat-Oval",
+          "en": "Type Flat-Oval",
+          "ru": "Тип: Плоский-Овальный"
+        }
+      },
+      "purpose": {
+        "uz": "Batareyali ushlab quritilgan sochiqlar bilan banyonlar uchun ideal",
+        "en": "Ideal for bathrooms with decorative towel drying",
+        "ru": "Идеально для ванных комнат с декоративной сушкой полотенец"
+      }
+    }
+  ]
+}
