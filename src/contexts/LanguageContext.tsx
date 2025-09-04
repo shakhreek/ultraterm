@@ -215,6 +215,19 @@ const translations = {
     'whyChoose.price': 'Raqobatbardosh Narxlar',
     'whyChoose.priceDesc': 'Premium sifatli isitish yechimlari uchun eng yaxshi qiymat',
     
+    // Testimonials
+    'testimonials.title': 'Mijozlarimiz Nima Deydi',
+    'testimonials.subtitle': 'Butun dunyo bo\'ylab minglab mamnun mijozlar tomonidan ishonilgan',
+    'testimonials.customer1.name': 'Sarah Johnson',
+    'testimonials.customer1.role': 'Uy egasi',
+    'testimonials.customer1.text': 'ULTRATERM radiatorlari bizning uyimiz isitishini o\'zgartirdi. Ajoyib sifat va chiroyli dizayn!',
+    'testimonials.customer2.name': 'Michael Chen',
+    'testimonials.customer2.role': 'Arxitektor',
+    'testimonials.customer2.text': 'Ajoyib estetika bilan professional darajadagi sifat. Zamonaviy arxitektura loyihalari uchun mukammal.',
+    'testimonials.customer3.name': 'Elena Rodriguez',
+    'testimonials.customer3.role': 'Biznes egasi',
+    'testimonials.customer3.text': 'Bizning ofis majmuamiz uchun ajoyib mijozlarga xizmat va ishonchli isitish yechimlari.',
+    
     // Contact Section
     'contact.title': 'Aloqaga Chiqing',
     'contact.subtitle': 'Isitish tizimingizni yangilashga tayyormisiz?',
