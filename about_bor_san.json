@@ -1,0 +1,137 @@
+{
+  "radiators": {
+    "description": {
+      "uz": "BOR-SAN po‘lat panel radiatorlari — sifat, narx va innovatsion texnologiyalarni optimal uyg‘unlashtirish.",
+      "en": "BOR-SAN steel panel radiators are an optimal integration of quality, price, and innovative technologies.",
+      "ru": "Стальные панельные радиаторы BorSan — это оптимальная интеграция качества, цены и инновационных технологий."
+    },
+    "features": {
+      "nanoceramic_coating": {
+        "uz": "NANOCERAMIC qoplamasi — bo‘yoqdan oldin qo‘llaniladigan noyob antikorrozion qoplama; tashqi va ichki sirtlarni qayta ishlaydi, shunday qilib po‘latni uzoq yillar davomida suv bilan aloqa qilinganda ham korroziyadan himoya qiladi.",
+        "en": "The NANOCERAMIC coating is a unique anti-corrosion coating applied before painting; it treats not only external surfaces but also internal cavities, preventing steel corrosion when in contact with water for many years.",
+        "ru": "Покрытие NANOCERAMIC — уникальное антикоррозийное покрытие, которое наносится перед покраской; обрабатываются не только наружные поверхности, но и внутренние полости, что предотвращает коррозию стали при соприкосновении с водой на долгие годы."
+      },
+      "even_heating": {
+        "uz": "Radiatorlarda issiqlik uzatilishining bir xilda bo‘lishini ta’minlaydigan yaxshi o‘ylangan va sifatli ish faoliyat ko‘rsatuvchi nasos tizimi; konvektor panellari sovutish yuzasi orqali qo‘shimcha issiqlik uzatadi.",
+        "en": "Uniform warming of radiators is ensured by a well-designed and high-quality circulatory system for the heat carrier in the device. Additional heat transfer is also provided through convector panels with a developed surface.",
+        "ru": "Равномерный прогрев радиаторов обеспечивается хорошо продуманной и качественно выполненной системой циркуляции теплоносителя в приборе. Дополнительная теплопередача осуществляется также посредством конвекторных панелей с развитой поверхностью."
+      },
+      "automation_and_testing": {
+        "uz": "Radiatorlar to‘liq avtomatlashtirilgan ishlab chiqarish liniyalarida, eng so‘nggi texnologiyalar qo‘llanilgan holda ishlab chiqariladi. Avtomatik payvandlash yuqori mustahkamlikni ta’minlaydi. Har bir radiator 13 bar bosimda sinovdan o‘tadi; ishchi bosim esa 10 bar.",
+        "en": "Radiators are manufactured on fully automated production lines using the latest world technologies. High-quality automatic welding makes the products very durable. Each radiator is tested at 13 bar pressure, and the working pressure is 10 bar.",
+        "ru": "Радиаторы BorSan изготавливаются на полностью автоматизированных производственных линиях с применением последних мировых технологий. Качественная автоматическая сварка делает изделия очень прочными. Каждый радиатор испытывается давлением 13 бар, а рабочее давление составляет 10 бар."
+      },
+      "gost_compliance": {
+        "uz": "Barcha Bor-San radiatorlari akkreditatsiyalangan laboratoriyada sinovdan o‘tgan va GOST 31311-2005 talablariga javob beradi.",
+        "en": "All BOR-SAN radiators have successfully passed tests in an accredited laboratory and comply with the requirements of GOST 31311-2005.",
+        "ru": "Все радиаторы BOR-SAN успешно прошли испытания в аккредитованной лаборатории и соответствуют требованиям ГОСТ 31311-2005."
+      }
+    },
+    "technical_specifications": {
+      "base_material_standard": {
+        "uz": "Yuqori sifatli sovuq plastinkali po‘lat EN10130, EN 442 standarti bilan.",
+        "en": "Made of high-quality cold-rolled steel EN10130 in accordance with EN 442 standard.",
+        "ru": "Изготовлены из высококачественной холоднокатаной стали EN10130 в соответствии со стандартом EN 442."
+      },
+      "convector_design": {
+        "uz": "Baland konvektor to‘g‘ridan-to‘g‘ri 33,3 mm qadamdagi suv kanallari bilan bog‘langan; tez issiqlik uzatishni ta’minlaydi.",
+        "en": "With a high convector directly connected to water channels with a pitch of 33.3 mm, it ensures rapid heat exchange.",
+        "ru": "Благодаря высокому конвектору, который непосредственно соединяется с водяными каналами с шагом 33,3 мм, обеспечивается быстрый теплообмен."
+      },
+      "options": {
+        "uz": "Tavsiya etilgan qo‘shimchalar: pastki ulanish to‘plami, termostatik patronlar va termoregulyatorlar.",
+        "en": "All BOR-SAN radiators can be equipped with a built-in bottom-connection kit, thermostatic inserts, and thermoregulators.",
+        "ru": "Все радиаторы Bor-San могут быть оборудованы встроенным комплектом для нижнего подключения, термостатическими вставками и терморегуляторами."
+      },
+      "packaging_and_accessories": {
+        "uz": "Yuqori va yon qopqoq bilan yig‘ilgan holda yetkaziladi. Montaj aksessuarlari (osish elementlari, vilkalar, vintlar, dubele va yuvkichlar) qadoqda radiatori bilan birga keladi.",
+        "en": "Delivered assembled with a top and side cover. All mounting accessories (suspension elements, forks, screws, dowels and washers) are supplied together with the radiator in the package.",
+        "ru": "Поставляются в собранном виде с верхней и боковой крышкой. Все монтажные комплектующие аксессуары (элементы подвески, вилки, шурупы, дюбели и шайбы) поставляются вместе с панелью в упаковке."
+      },
+      "types_heights_lengths": {
+        "uz": "3 turdagi (11, 22, 33). 2 balandlik (300 mm va 500 mm). 20 uzunlik (400–3000 mm). Barcha radiatorlar 4 × G½″ ulanish bilan.",
+        "en": "3 different types (11, 22, 33). 2 different heights (300 mm and 500 mm). 20 different lengths (400–3000 mm). All radiators are made with 4 × G½″ connection.",
+        "ru": "3 различных типа (11, 22, 33). 2 различные высоты (300 мм и 500 мм). 20 различных длин (400–3000 мм). Все радиаторы произведены с 4 × G½″ подключением."
+      },
+      "brackets": {
+        "uz": "Uzunlikka qarab, montaj uchun 2 yoki 3 qisqlik bracketlar bilan yetkaziladi (1600 mm gacha – 2 bracket; 1600 mm va undan ko‘p – 3 bracket).",
+        "en": "Depending on the length, radiators are supplied with two or three mounting brackets (up to 1600 mm – two brackets; from 1600 mm and longer – three brackets).",
+        "ru": "В зависимости от длины, все радиаторы поставляются в комплекте с двумя или тремя кронштейнами для монтажа (до длины 1600 мм — два кронштейна, от 1600 мм и длиннее — 3 кронштейна)."
+      },
+      "standard_color": {
+        "uz": "Standart qoplama rangi — oq (RAL 9016).",
+        "en": "Standard coating color is white (RAL 9016).",
+        "ru": "Стандартным цветом покрытия является белый (RAL 9016)."
+      },
+      "pressure_temperature": {
+        "uz": "Sinov bosimi 13 bar. Maksimal ishchi harorat 120 °C, maksimal ish bosimi 10 bar.",
+        "en": "Test pressure 13 bar. Maximum operating temperature 120 °C, maximum operating pressure 10 bar.",
+        "ru": "Каждый панельный радиатор проходит испытательное давление 13 бар. Максимальная рабочая температура 120 °С, максимальное рабочее давление 10 бар."
+      },
+      "easy_cleaning": {
+        "uz": "Yon va yuqori qopqoqni yengil yechish mumkin — tozalash uchun qulay.",
+        "en": "For easy and convenient cleaning, the side and top covers are easily removable.",
+        "ru": "Для легкой и удобной очистки боковая и верхняя крышка легко снимаются."
+      }
+    },
+    "certification": {
+      "uz": "BOR-SAN radiatorlari akkreditatsiyalangan laboratoriyada sinovdan o‘tib, GOST 31311-2005 talablariga muvofiqdir. 2018 yil 27 iyundan boshlab radiatorlar va konvektorlar uchun majburiy sertifikatlashtirish joriy etildi.",
+      "en": "BOR-SAN radiators have passed tests in an accredited laboratory and comply with GOST 31311-2005. Since 27 June 2018, mandatory certification of heating radiators and convectors has been enforced.",
+      "ru": "Все радиаторы BOR-SAN успешно прошли испытания в аккредитованной лаборатории и соответствуют требованиям ГОСТ 31311-2005. С 27 июня 2018 г. введена обязательная сертификация радиаторов отопления и конвекторов."
+    },
+    "types": [
+      {
+        "type": "11 PK",
+        "configuration": {
+          "panel": "panel + convector",
+          "connection": {
+            "side": "available",
+            "bottom": "on request"
+          }
+        }
+      },
+      {
+        "type": "22 PKKP",
+        "configuration": {
+          "panel": "panel + convector + convector + panel",
+          "connection": {
+            "side": "available",
+            "bottom": "on request"
+          }
+        }
+      },
+      {
+        "type": "33 PKKPKP",
+        "configuration": {
+          "panel": "panel + convector + convector + panel + convector + panel",
+          "connection": {
+            "side": "on request",
+            "bottom": "on request"
+          }
+        }
+      }
+    ],
+    "packaging_and_tests": {
+      "packaging": {
+        "uz": "Qadoqlashda plastik burchaklar radiatorni transport paytida shikastlanishdan himoya qiladi. Katta partiyalar paletlarda jo‘natiladi.",
+        "en": "Packaging includes plastic corners that protect the radiator from damage during transport. Bulk shipments are transported on pallets for additional protection.",
+        "ru": "Упаковка радиаторов снабжена пластиковыми уголками, которые защищают радиатор от повреждений при транспортировке. Крупные партии радиаторов перевозятся на паллетах, что дополнительно защищает изделия."
+      },
+      "accessories": {
+        "uz": "O‘rnatish uchun aksessuarlar: zaglushka, o‘tish nipeli, Mayevskogo krani, montaj uskunalari va dъubelьlar bilan yetkaziladi.",
+        "en": "Mounting accessories include: steel end cap, adapter with Maevsky valve, screws, dowels, and are supplied together with radiators.",
+        "ru": "Комплектующие для монтажа: стальная заглушка, переходник с клапаном «Маевского», крепления и дюбели поставляются вместе с радиаторами."
+      },
+      "testing_schedule": {
+        "uz": "Sinovlar jadvali:\n- Har bir radiator: bosim sinovi (13 bar).\n- Haftada: yirtilish testi, deformatsiya testi, bo‘yoq kesiltma testi, o‘lchov testi, payvand mustahkamligi testi.\n- Har ikki haftada: korroziyaga qarshi chidamlilik testi.\n- Har 3 oyda: tayyor mahsulot nazorati omborda.\n- Har yili: namlikka chidamlilik va yong‘inga chidamlilik testlari.",
+        "en": "Testing schedule:\n- Every radiator: pressure test (13 bar).\n- Weekly: burst test, deformation test, coating grid-cut test, dimension test, weld strength test.\n- Every two weeks: corrosion resistance test.\n- Every 3 months: finished product control in warehouse.\n- Annually: moisture resistance and fire resistance tests.",
+        "ru": "График испытаний:\n- Каждый радиатор: испытание под давлением (13 бар).\n- Еженедельно: тест на разрыв, деформацию, решетчатый надрез покрытия, габаритный тест, тест прочности сварки.\n- Каждые две недели: тест на коррозионную стойкость.\n- Каждые 3 месяца: контроль готовой продукции на складе.\n- Ежегодно: тест на влагостойкость и огнестойкость."
+      }
+    },
+    "contact": {
+      "uz": "Rossiya, Krasnodar shahri. Telefon: +7-861-205-14-86. Email saytda mavjud.",
+      "en": "Russia, Krasnodar city. Phone: +7-861-205-14-86. Email available on the site.",
+      "ru": "Россия, г. Краснодар. Телефон: +7-861-205-14-86. Email указан на сайте."
+    }
+  }
+}
