@@ -19,6 +19,7 @@ const translations = {
     'nav.features': 'Features',
     'nav.products': 'Products',
     'nav.borSan': 'BOR-SAN',
+    'nav.copa': 'COPA',
     'nav.testimonials': 'Testimonials',
     'nav.contact': 'Contact',
     
@@ -162,6 +163,7 @@ const translations = {
     'nav.features': 'Xususiyatlar',
     'nav.products': 'Mahsulotlar',
     'nav.borSan': 'BOR-SAN',
+    'nav.copa': 'COPA',
     'nav.testimonials': 'Sharhlar',
     'nav.contact': 'Aloqa',
     
@@ -305,6 +307,7 @@ const translations = {
     'nav.features': 'Особенности',
     'nav.products': 'Продукция',
     'nav.borSan': 'BOR-SAN',
+    'nav.copa': 'COPA',
     'nav.testimonials': 'Отзывы',
     'nav.contact': 'Контакты',
     

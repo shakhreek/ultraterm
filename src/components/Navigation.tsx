@@ -25,6 +25,7 @@ export const Navigation: React.FC = () => {
     { key: 'nav.features', href: '#features' },
     { key: 'nav.products', href: '#products' },
     { key: 'nav.borSan', href: '#bor-san' },
+    { key: 'nav.copa', href: '#copa' },
     { key: 'nav.testimonials', href: '#testimonials' },
     { key: 'nav.contact', href: '#contact' },
   ];

@@ -11,8 +11,10 @@ import {
   Leaf,
   Wrench,
   Package,
-  Truck
+  Truck,
+  Link
 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 // Import BOR-SAN images
 import borSanRadiator from '@/assets/bor-san/bor-san-radiator.png';
@@ -27,6 +29,7 @@ export const BorSanSection: React.FC = () => {
   const { t, language } = useLanguage();
   const [borSanData, setBorSanData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchBorSanData = async () => {
@@ -83,6 +86,12 @@ export const BorSanSection: React.FC = () => {
           <p className="text-xl md:text-2xl text-foreground-muted mb-8 max-w-4xl mx-auto leading-relaxed">
             {description}
           </p>
+          <button 
+            onClick={() => navigate('/bor-san')}
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+          >
+            {t('products.viewDetails')} <Link className="ml-2 h-4 w-4" />
+          </button>
         </div>
 
         {/* Features Section */}

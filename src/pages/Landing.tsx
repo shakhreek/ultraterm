@@ -5,11 +5,12 @@ import { HeroSection } from '@/components/landing/HeroSection';
 import { AboutSection } from '@/components/landing/AboutSection';
 import { FeaturesSection } from '@/components/landing/FeaturesSection';
 import { ProductsSection } from '@/components/landing/ProductsSection';
+import { BorSanSection } from '@/components/landing/BorSanSection';
+import { CopaSection } from '@/components/landing/CopaSection';
 import { WhyChooseSection } from '@/components/landing/WhyChooseSection';
 import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
 import { ContactSection } from '@/components/landing/ContactSection';
 import { Footer } from '@/components/landing/Footer';
-import { BorSanSection } from '@/components/landing/BorSanSection';
 
 export const Landing: React.FC = () => {
   const { t } = useLanguage();
@@ -41,6 +42,7 @@ export const Landing: React.FC = () => {
       <FeaturesSection />
       <ProductsSection />
       <BorSanSection />
+      <CopaSection />
       <WhyChooseSection />
       <TestimonialsSection />
       <ContactSection />
