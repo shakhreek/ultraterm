@@ -7,6 +7,7 @@ import { FeaturesSection } from '@/components/landing/FeaturesSection';
 import { ProductsSection } from '@/components/landing/ProductsSection';
 import { BorSanSection } from '@/components/landing/BorSanSection';
 import { CopaSection } from '@/components/landing/CopaSection';
+import { UtermSection } from '@/components/landing/UtermSection';
 import { WhyChooseSection } from '@/components/landing/WhyChooseSection';
 import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
 import { ContactSection } from '@/components/landing/ContactSection';
@@ -43,6 +44,7 @@ export const Landing: React.FC = () => {
       <ProductsSection />
       <BorSanSection />
       <CopaSection />
+      <UtermSection />
       <WhyChooseSection />
       <TestimonialsSection />
       <ContactSection />

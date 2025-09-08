@@ -18,6 +18,8 @@ import { useNavigate } from 'react-router-dom';
 
 // Import BOR-SAN images
 import borSanRadiator from '@/assets/bor-san/bor-san-radiator.png';
+import partnerBorsan from '@/assets/partner-borsan.JPG';
+import borSanLogo from '@/assets/bor-san.png';
 import type11 from '@/assets/bor-san/type-11.png';
 import type22 from '@/assets/bor-san/type-22.png';
 import type33 from '@/assets/bor-san/type-33.png';
@@ -63,35 +65,62 @@ export const BorSanSection: React.FC = () => {
     );
   }
 
-  // Get radiator data based on current language
-  const radiatorData = borSanData.radiators;
-  const description = radiatorData.description[language];
-  const features = radiatorData.features;
-  const techSpecs = radiatorData.technical_specifications;
-  const packagingTests = radiatorData.packaging_and_tests;
-  const contactInfo = radiatorData.contact[language];
-  const types = radiatorData.types;
+  // Get radiator data based on current language (safe access)
+  const radiatorData = borSanData?.radiators ?? null;
+  if (!radiatorData) {
+    console.error('BOR-SAN data missing "radiators" key:', borSanData);
+    return (
+      <div className="py-20 flex items-center justify-center">
+        <div className="text-2xl font-bold">Error loading BOR-SAN data</div>
+      </div>
+    );
+  }
+
+  const localize = (entry: any) => {
+    if (!entry) return '';
+    return entry[language] ?? entry['en'] ?? '';
+  };
+
+  const description = localize(radiatorData.description);
+  const features = radiatorData.features ?? {};
+  const techSpecs = radiatorData.technical_specifications ?? {};
+  const packagingTests = radiatorData.packaging_and_tests ?? {};
+  const contactInfo = localize(radiatorData.contact);
+  const types = radiatorData.types ?? [];
 
   return (
     <section id="bor-san" className="py-20 bg-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-primary text-primary-foreground">
-            BOR-SAN
-          </Badge>
+          <div className="flex justify-center mb-4">
+            <img src={borSanLogo} alt="BOR-SAN Logo" className="h-14 object-contain" />
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">{t('borSan.title')}</span>
           </h2>
-          <p className="text-xl md:text-2xl text-foreground-muted mb-8 max-w-4xl mx-auto leading-relaxed">
-            {description}
-          </p>
-          <button 
-            onClick={() => navigate('/bor-san')}
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <img src={partnerBorsan} alt="BOR-SAN Partner" className="w-full max-w-xs rounded-md shadow-md mx-auto" />
+            </div>
+            <div className="text-left">
+              <p className="text-xl md:text-2xl text-foreground-muted mb-4 leading-relaxed">{description}</p>
+              <div className="prose text-foreground-muted max-w-none">
+                {/* Render company_info from translations as paragraphs preserving new lines */}
+                {String(t('borSan.company_info')).split(/\n\n/).map((para, idx) => (
+                  <p key={idx}>{para}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://bor-san.ru"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
           >
             {t('products.viewDetails')} <Link className="ml-2 h-4 w-4" />
-          </button>
+          </a>
         </div>
 
         {/* Features Section */}
@@ -111,7 +140,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted leading-relaxed text-center">
-                  {features.nanoceramic_coating[language]}
+                  {localize(features.nanoceramic_coating)}
                 </p>
               </CardContent>
             </Card>
@@ -123,7 +152,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted leading-relaxed text-center">
-                  {features.even_heating[language]}
+                  {localize(features.even_heating)}
                 </p>
               </CardContent>
             </Card>
@@ -135,7 +164,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted leading-relaxed text-center">
-                  {features.automation_and_testing[language]}
+                  {localize(features.automation_and_testing)}
                 </p>
               </CardContent>
             </Card>
@@ -147,7 +176,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted leading-relaxed text-center">
-                  {features.gost_compliance[language]}
+                  {localize(features.gost_compliance)}
                 </p>
               </CardContent>
             </Card>
@@ -173,13 +202,13 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted mb-4">
-                  {techSpecs.base_material_standard[language]}
+                  {localize(techSpecs.base_material_standard)}
                 </p>
                 <p className="text-foreground-muted mb-4">
-                  {techSpecs.convector_design[language]}
+                  {localize(techSpecs.convector_design)}
                 </p>
                 <p className="text-foreground-muted">
-                  {techSpecs.pressure_temperature[language]}
+                  {localize(techSpecs.pressure_temperature)}
                 </p>
               </CardContent>
             </Card>
@@ -193,13 +222,13 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted mb-4">
-                  {techSpecs.standard_color[language]}
+                  {localize(techSpecs.standard_color)}
                 </p>
                 <p className="text-foreground-muted mb-4">
-                  {techSpecs.easy_cleaning[language]}
+                  {localize(techSpecs.easy_cleaning)}
                 </p>
                 <p className="text-foreground-muted">
-                  {techSpecs.packaging_and_accessories[language]}
+                  {localize(techSpecs.packaging_and_accessories)}
                 </p>
               </CardContent>
             </Card>
@@ -210,10 +239,10 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted mb-4">
-                  {techSpecs.types_heights_lengths[language]}
+                  {localize(techSpecs.types_heights_lengths)}
                 </p>
                 <p className="text-foreground-muted">
-                  {techSpecs.brackets[language]}
+                  {localize(techSpecs.brackets)}
                 </p>
               </CardContent>
             </Card>
@@ -297,7 +326,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted">
-                  {packagingTests.packaging[language]}
+                  {localize(packagingTests.packaging)}
                 </p>
               </CardContent>
             </Card>
@@ -318,7 +347,7 @@ export const BorSanSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground-muted">
-                  {packagingTests.accessories[language]}
+                  {localize(packagingTests.accessories)}
                 </p>
               </CardContent>
             </Card>
@@ -351,7 +380,7 @@ export const BorSanSection: React.FC = () => {
           <div className="text-center mb-16">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">{t('borSan.certification.title')}</h3>
             <p className="text-xl text-foreground-muted max-w-3xl mx-auto">
-              {radiatorData.certification[language]}
+              {localize(radiatorData.certification)}
             </p>
           </div>
 

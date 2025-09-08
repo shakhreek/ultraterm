@@ -20,12 +20,14 @@ const translations = {
     'nav.products': 'Products',
     'nav.borSan': 'BOR-SAN',
     'nav.copa': 'COPA',
+    'nav.uterm': 'UTERM',
     'nav.testimonials': 'Testimonials',
     'nav.contact': 'Contact',
     
     // Hero Section
     'hero.title': 'Premium Heating Radiators',
     'hero.subtitle': 'Experience ultimate warmth and comfort with ULTRATERM\'s cutting-edge heating solutions',
+    'hero.description': 'Ultratеrm company has been delivering high-quality, affordable radiators from Uterm, Copa and Borsan for 3 years. We offer over 30 sizes and finishes suitable for homes and offices.',
     'hero.cta': 'Explore Products',
     'hero.learnMore': 'Learn More',
     
@@ -62,6 +64,13 @@ const translations = {
     'products.eco.name': 'ULTRATERM Eco',
     'products.eco.description': 'Energy-efficient model designed for sustainable heating',
     'products.viewDetails': 'View Details',
+    // UTERM section translations (EN)
+    'uterm.title': 'UTerm Panel Radiator',
+    'uterm.description': 'Panel radiators manufactured in Ukraine. Nano Ceramic technology and a 10-year warranty.',
+    'uterm.panel.name': 'UTerm Panel Radiator',
+    'uterm.panel.description': 'High-quality panel radiator produced in Ukraine with Nano Ceramic technology and a 10-year warranty.',
+    'uterm.panel.spec': '22K 500 x 800',
+    'uterm.cta': 'Learn more',
     
     // Why Choose Us
     'whyChoose.title': 'Why Choose ULTRATERM?',
@@ -137,6 +146,8 @@ const translations = {
     'borSan.contact.phone': 'Phone',
     'borSan.contact.email': 'Email',
     'borSan.contact.location': 'Location',
+    // BOR-SAN company info (short)
+    'borSan.company_info': 'BOR-SAN A.Ş. is a leading manufacturer of steel panel and bathroom radiators (BORPAN®), located in the Aksaray industrial region of Turkey.\n\nOperating since 2000, BOR-SAN produces high-quality heating systems and today has 41,000 m² of indoor production area, exporting its products to more than 44 countries.\n\nOur products:\n\nSteel panel radiators — available in various heights and lengths (300–900 mm / 400–3000 mm).\n\nBathroom radiators — available in white and chrome finishes and various designs.\n\nQuality and warranty:\n\nAll products comply with international standards such as EN 442, CE, DIN, GOST-R, and TSE, and are manufactured under an ISO 9001 quality system. The company provides a 10-year warranty on its products.',
     
     // Footer
     'footer.company': 'Company',
@@ -164,12 +175,14 @@ const translations = {
     'nav.products': 'Mahsulotlar',
     'nav.borSan': 'BOR-SAN',
     'nav.copa': 'COPA',
+    'nav.uterm': 'UTERM',
     'nav.testimonials': 'Sharhlar',
     'nav.contact': 'Aloqa',
     
     // Hero Section
     'hero.title': 'Premium Isitish Radiatorlari',
     'hero.subtitle': 'ULTRATERM\'ning ilg\'or isitish yechimlari bilan eng yuqori issiqlik va qulaylikni his eting',
+    'hero.description': 'Ultratеrm kompaniyasi 3 yildan beri Uterm, Copa va Borsanning sifatli va hamyonbop radiatorlarini yetkazib bermoqda. Biz 30 dan ortiq o\'lcham va tugatishlarni taklif qilamiz, ular uy va ofis uchun mos keladi.',
     'hero.cta': 'Mahsulotlarni Ko\'rish',
     'hero.learnMore': 'Batafsil',
     
@@ -206,6 +219,13 @@ const translations = {
     'products.eco.name': 'ULTRATERM Eco',
     'products.eco.description': 'Barqaror isitish uchun mo\'ljallangan energiya tejamkor model',
     'products.viewDetails': 'Batafsil Ko\'rish',
+    // UTERM section translations (Uzbek)
+    'uterm.title': 'UTerm Panel Radiatori',
+    'uterm.description': 'Ukrainada ishlab chiqarilayotgan panel radiatorlari. Nano Keramik texnologiya, 10 yil kafolat beriladi.',
+    'uterm.panel.name': 'UTerm Panel Radiatori',
+    'uterm.panel.description': 'Ukrainada ishlab chiqarilgan yuqori sifatli panel radiator. Nano Keramik texnologiya va 10 yillik kafolat bilan.',
+    'uterm.panel.spec': '22K 500 x 800',
+    'uterm.cta': 'Batafsil',
     
     // Why Choose Us
     'whyChoose.title': 'Nima Uchun ULTRATERM\'ni Tanlaysiz?',
@@ -233,7 +253,7 @@ const translations = {
     'testimonials.customer3.text': 'Bizning ofis majmuamiz uchun ajoyib mijozlarga xizmat va ishonchli isitish yechimlari.',
     
     // Contact Section
-    'contact.title': 'Aloqaga Chiqing',
+    'contact.title': 'Aloqa',
     'contact.subtitle': 'Isitish tizimingizni yangilashga tayyormisiz?',
     'contact.name': 'To\'liq Ism',
     'contact.email': 'Email Manzili',
@@ -281,6 +301,8 @@ const translations = {
     'borSan.contact.phone': 'Telefon',
     'borSan.contact.email': 'Email',
     'borSan.contact.location': 'Manzil',
+    // BOR-SAN company info (short Uzbek)
+    'borSan.company_info': 'BOR-SAN A.Ş. — Turkiyaning Aksaray sanoat hududida joylashgan va BORPAN® savdo belgisi ostida faoliyat yurituvchi, po‘lat panel va hammom radiatorlari ishlab chiqaruvchi yetakchi kompaniya.\n\n2000-yildan buyon yuqori sifatli isitish tizimlarini ishlab chiqarayotgan BOR-SAN bugungi kunda 41 000 m² yopiq ishlab chiqarish maydoniga ega bo‘lib, mahsulotlarini 44 dan ortiq mamlakatga eksport qiladi.\n\nMahsulotlarimiz\n\nPo‘lat panel radiatorlari — turli balandlik va uzunliklarda (300–900 mm / 400–3000 mm).\n\nHammom radiatorlari — oq va xrom qoplamali, turli dizaynlarda.\n\nSifat va kafolat\n\nBarcha mahsulotlar EN 442, CE, DIN, GOST-R, TSE kabi xalqaro standartlarga javob beradi hamda ISO 9001 sifat tizimi asosida ishlab chiqariladi. Kompaniya mahsulotlariga 10 yillik kafolat taqdim etadi.',
     
     // Footer
     'footer.company': 'Kompaniya',
@@ -308,6 +330,7 @@ const translations = {
     'nav.products': 'Продукция',
     'nav.borSan': 'BOR-SAN',
     'nav.copa': 'COPA',
+    'nav.uterm': 'UTERM',
     'nav.testimonials': 'Отзывы',
     'nav.contact': 'Контакты',
     
@@ -350,6 +373,13 @@ const translations = {
     'products.eco.name': 'ULTRATERM Eco',
     'products.eco.description': 'Энергоэффективная модель, разработанная для устойчивого отопления',
     'products.viewDetails': 'Подробнее',
+    // UTERM section translations (Russian)
+    'uterm.title': 'UTerm Панельный Радиатор',
+    'uterm.description': 'Панельные радиаторы, производимые в Украине. Технология Nano Ceramic, предоставляется 10-летняя гарантия.',
+    'uterm.panel.name': 'UTerm Панельный Радиатор',
+    'uterm.panel.description': 'Высококачественный украинский панельный радиатор с технологией Nano Ceramic и 10-летней гарантией.',
+    'uterm.panel.spec': '22K 500 x 800',
+    'uterm.cta': 'Подробнее',
     
     // Why Choose Us
     'whyChoose.title': 'Почему Выбирают ULTRATERM?',

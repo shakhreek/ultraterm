@@ -10,6 +10,11 @@ import ecoImage from '@/assets/radiator-eco.jpg';
 export const ProductsSection: React.FC = () => {
   const { t } = useLanguage();
 
+  const scrollToContact = () => {
+    const el = document.querySelector('#contact');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section id="products" className="py-20 bg-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,7 +81,15 @@ export const ProductsSection: React.FC = () => {
                 </div>
                 <div className="flex justify-between items-center pt-4 border-t border-border">
                   <span className="text-2xl font-bold text-gradient">{product.price}</span>
-                  <Button variant="premium">
+                  <Button variant="premium" onClick={() => {
+                    // if product is Premium, scroll to contact for details
+                    if (product.badge && product.badge.toLowerCase().includes('premium')) {
+                      scrollToContact();
+                    } else {
+                      // otherwise also scroll to contact as default
+                      scrollToContact();
+                    }
+                  }}>
                     {t('products.viewDetails')}
                   </Button>
                 </div>
