@@ -455,6 +455,7 @@ const translations = {
     'borSan.contact.phone': 'Телефон',
     'borSan.contact.email': 'Email',
     'borSan.contact.location': 'Местоположение',
+    'borSan.company_info': 'BOR-SAN A.Ş. — ведущий производитель стальных панельных и ванные радиаторов (BORPAN®), расположенный в промышленной зоне Аксарай, Турция.\n\nДействуя с 2000 года, BOR-SAN производит высококачественные отопительные системы и в настоящее время имеет 41 000 м² закрытой производственной площади, экспортируя свою продукцию более чем в 44 страны.\n\nНаши продукты:\n\nСтальные панельные радиаторы — доступны в различных высотах и длинах (300–900 мм / 400–3000 мм).\n\nВанные радиаторы — в белых и хромированных покрытиях и в различных дизайнах.\n\nКачество и гарантия:\n\nВся продукция соответствует международным стандартам, таким как EN 442, CE, DIN, GOST-R и TSE, и производится в соответствии с системой качества ISO 9001. Компания предоставляет 10-летнюю гарантию на свою продукцию.',
     
     // Footer
     'footer.company': 'Компания',
@@ -478,8 +479,11 @@ const translations = {
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>(() => {
+    // Default to Uzbek ('uz') unless user explicitly stored another preference
     const saved = localStorage.getItem('language');
-    return (saved as Language) || 'uz';
+    if (saved === 'en' || saved === 'ru' || saved === 'uz') return saved as Language;
+    localStorage.setItem('language', 'uz');
+    return 'uz';
   });
 
   useEffect(() => {
