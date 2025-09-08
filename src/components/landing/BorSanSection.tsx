@@ -249,56 +249,7 @@ export const BorSanSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Radiator Types */}
-        <div className="mb-20">
-          <div className="text-center mb-16">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">{t('borSan.types.title')}</h3>
-            <p className="text-xl text-foreground-muted max-w-3xl mx-auto">
-              {t('borSan.types.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {types.map((type: any, index: number) => (
-              <Card key={index} className="overflow-hidden hover-scale border-none shadow-lg bg-surface-elevated">
-                <div className="relative">
-                  <img 
-                    src={
-                      type.type === "11 PK" ? type11 : 
-                      type.type === "22 PKKP" ? type22 : type33
-                    } 
-                    alt={type.type}
-                    className="w-full h-48 object-contain"
-                  />
-                </div>
-                <CardHeader>
-                  <CardTitle className="text-xl">{type.type}</CardTitle>
-                  <CardDescription>
-                    {type.configuration.panel}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-foreground-muted">{t('borSan.types.sideConnection')}:</span>
-                    <span className="font-medium">
-                      {type.configuration.connection.side === "available" ? 
-                        t('borSan.types.available') : 
-                        t('borSan.types.onRequest')}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-foreground-muted">{t('borSan.types.bottomConnection')}:</span>
-                    <span className="font-medium">
-                      {type.configuration.connection.bottom === "available" ? 
-                        t('borSan.types.available') : 
-                        t('borSan.types.onRequest')}
-                    </span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
+        {/* Radiator Types removed per request */}
 
         {/* Packaging & Testing */}
         <div className="mb-20">
@@ -375,22 +326,7 @@ export const BorSanSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Certification */}
-        <div className="mb-20">
-          <div className="text-center mb-16">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">{t('borSan.certification.title')}</h3>
-            <p className="text-xl text-foreground-muted max-w-3xl mx-auto">
-              {localize(radiatorData.certification)}
-            </p>
-          </div>
-
-          <div className="flex justify-center">
-            <Badge variant="secondary" className="py-3 px-6 text-lg">
-              <Award className="h-5 w-5 mr-2" />
-              {t('borSan.certification.gost')} - GOST 31311-2005
-            </Badge>
-          </div>
-        </div>
+        {/* Certification removed per request */}
       </div>
     </section>
   );
