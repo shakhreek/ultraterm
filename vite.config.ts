@@ -9,6 +9,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  // Allow importing assets with uppercase .JPG extension
+  assetsInclude: ["**/*.JPG"],
   plugins: [
     react(),
     mode === 'development' &&

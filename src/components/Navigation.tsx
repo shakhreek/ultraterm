@@ -24,6 +24,7 @@ export const Navigation: React.FC = () => {
     { key: 'nav.about', href: '#about' },
     { key: 'nav.features', href: '#features' },
     { key: 'nav.products', href: '#products' },
+    { key: 'nav.uterm', href: '#uterm' },
     { key: 'nav.borSan', href: '#bor-san' },
     { key: 'nav.copa', href: '#copa' },
     { key: 'nav.testimonials', href: '#testimonials' },
@@ -55,12 +56,12 @@ export const Navigation: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="flex items-center space-x-8">
+            <div className="flex items-center space-x-6">
               {navItems.map((item) => (
                 <button
                   key={item.key}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-foreground-muted hover:text-foreground transition-colors duration-200 font-medium"
+                  className="text-foreground-muted hover:text-foreground transition-colors duration-200 font-medium text-sm"
                 >
                   {t(item.key)}
                 </button>

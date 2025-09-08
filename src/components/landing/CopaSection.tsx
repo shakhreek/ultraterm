@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Link } from 'lucide-react';
+import copaLogo from '@/assets/copa.png';
 import { useNavigate } from 'react-router-dom';
 
 export const CopaSection: React.FC = () => {
@@ -74,9 +75,9 @@ export const CopaSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-primary text-primary-foreground">
-            COPA
-          </Badge>
+          <div className="flex justify-center mb-4">
+            <img src={copaLogo} alt="COPA Logo" className="h-14 object-contain" />
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">
               {language === 'uz' 
@@ -93,8 +94,10 @@ export const CopaSection: React.FC = () => {
               ? "Радиаторы COPA - премиальные решения для отопления с современным дизайном и высокой эффективностью" 
               : "COPA radiators - premium heating solutions with modern design and high efficiency"}
           </p>
-          <button 
-            onClick={() => navigate('/copa')}
+          <a
+            href="https://www.copa.com.tr"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
           >
             {language === 'uz' 
@@ -102,7 +105,7 @@ export const CopaSection: React.FC = () => {
               : language === 'ru' 
               ? "Подробнее" 
               : "View Details"} <Link className="ml-2 h-4 w-4" />
-          </button>
+          </a>
         </div>
 
         {/* Radiator Types */}
