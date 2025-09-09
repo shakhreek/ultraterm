@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -10,12 +10,58 @@ import { toast } from '@/hooks/use-toast';
 export const ContactSection: React.FC = () => {
   const { t } = useLanguage();
 
-  const handleContactSubmit = (e: React.FormEvent) => {
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleContactSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message Sent",
-      description: "Thank you for your inquiry. We'll get back to you soon!",
-    });
+    if (submitting) return;
+
+    setSubmitting(true);
+    try {
+      const formBody = new URLSearchParams({
+        Name: name || '',
+        Phone: phone || '',
+        Message: message || '',
+        Date: new Date().toLocaleString(),
+      }).toString();
+
+      const res = await fetch('https://script.google.com/macros/s/AKfycby4AEPBzsutN49o0Pc1uYYOa0dbdsDoFGIzz6QshuaanaA8DbBaxIJozFi587J72mhB/exec', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body: formBody,
+      });
+
+      const json = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        console.error('Submission error from server:', json);
+        throw new Error(t('contact.submitError'));
+      }
+
+      // Always show localized success message instead of server text
+      toast({
+        title: t('contact.submitted'),
+        description: t('contact.successMessage'),
+      });
+
+      // clear form
+      setName('');
+      setPhone('');
+      setMessage('');
+    } catch (error: any) {
+      console.error('Contact submit failed:', error);
+      toast({
+        title: t('contact.submitError'),
+        description: t('contact.submitError'),
+      });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -35,20 +81,17 @@ export const ContactSection: React.FC = () => {
                   placeholder={t('contact.name')}
                   className="h-12"
                   required
+                  value={name}
+                  onChange={(e) => setName((e.target as HTMLInputElement).value)}
                 />
               </div>
-              <div>
-                <Input
-                  type="email"
-                  placeholder={t('contact.email')}
-                  className="h-12"
-                  required
-                />
-              </div>
+              {/* Email input removed as requested */}
               <div>
                 <Input
                   placeholder={t('contact.phone')}
                   className="h-12"
+                  value={phone}
+                  onChange={(e) => setPhone((e.target as HTMLInputElement).value)}
                 />
               </div>
               <div>
@@ -56,10 +99,12 @@ export const ContactSection: React.FC = () => {
                   placeholder={t('contact.message')}
                   rows={5}
                   required
+                  value={message}
+                  onChange={(e) => setMessage((e.target as HTMLTextAreaElement).value)}
                 />
               </div>
-              <Button type="submit" variant="hero" size="lg" className="w-full">
-                {t('contact.send')} <Mail className="ml-2 h-5 w-5" />
+              <Button type="submit" variant="hero" size="lg" className="w-full" disabled={submitting}>
+                {submitting ? t('contact.sending') : t('contact.send')} <Mail className="ml-2 h-5 w-5" />
               </Button>
             </form>
             {/* Map shown below the form (counts toward form height) */}
