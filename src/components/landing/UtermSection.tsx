@@ -23,7 +23,7 @@ export const UtermSection: React.FC = () => {
           {[{img: uterm1, name: t('uterm.panel.name'), desc: t('uterm.panel.description'), spec: t('uterm.panel.spec')}, {img: uterm2, name: t('uterm.panel.name'), desc: t('uterm.panel.description'), spec: t('uterm.panel.spec')}].map((p, i) => (
             <div key={i} className="border-none shadow-lg bg-surface-elevated rounded-lg overflow-hidden text-center h-full flex flex-col">
               {/* limit image height so cards aren't too tall */}
-              <img src={p.img} alt={p.name} className="w-full h-48 object-cover mb-4" />
+              <img src={p.img} alt={p.name} className="w-full h-80 object-cover mb-4" />
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-2xl font-semibold">{p.name}</h3>
                 <p className="text-foreground-muted my-3">{p.desc}</p>
@@ -43,5 +43,3 @@ export const UtermSection: React.FC = () => {
 };
 
 export default UtermSection;
-
-

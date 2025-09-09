@@ -1,0 +1,101 @@
+{
+  "uz": {
+    "title": "Uterm Ukraina ishlab chiqarish jarayoni",
+    "intro": "Uterm Ukraina – Ukrainada №1 bo‘lgan po‘lat panel radiatori ishlab chiqaruvchisi. Atigi olti yil ichida yetakchilikka erishdik va ishonchli ravishda oldinga harakatlanmoqdamiz – assortimentni kengaytiramiz, yangi bozorlarga chiqqamiz va ishlab chiqarish hajmini oshirmoqdamiz.",
+    "how_we_make": "Uterm po‘lat radiatorlarini qanday ishlab chiqaramiz",
+    "equipment": "Zavod zamonaviy uskunalarga jihozlangan, biz xodimlarni qadrlaymiz va ularning mehnatini e’tiborda saqlaymiz. Barcha ishchilar tizimli tarzda o‘qitiladi va malakasini oshiradi.",
+    "development": "Kompaniya injenerlari yuzlab isitish qurilmalarini o‘rganib, o‘nlab brendlarning xususiyatlari va texnik ko‘rsatkichlarini solishtirdi. Natijada mutaxassislar Uterm radiatorlarini yaratdilar – Ukrainada ishlab chiqarilgan zamonaviy mahsulot, ularda:",
+    "features": ["Energiya samaradorligi", "Ergonometrik", "Ekologik toza"],
+    "quality_principle": "Biz uchun eng muhimi – turdagi iste’molchi, u turli xil maqsad va maydonli binolarni isitish uchun sifatli mahsulot oladi. Shuning uchun biz ishlab chiqarish tsiklini shveytsariy soatlari printsipi asosida o‘rnatdik:",
+    "quality_steps": [
+      "Kiruvchi xom ashyo sifati nazorati",
+      "Ishlab chiqarish liniyalarini mikron aniqchilikka sozlash",
+      "Texnologik reglament asosida radiatorlarni ishlab chiqarish",
+      "Har bir bosqichda ko‘rsatkichlarni nazorat qilish",
+      "Istalik masofaga yetkazib berish uchun qadoqlash va tayyorlash"
+    ],
+    "human_role": "Ishlab chiqarish jarayonida odam ishtiroki minimal darajaga tushirilgan. Operatorlar va sozlovchilar esa zavodimizning soat ustalari bo‘lib, ular har bir tugmani pedantik tarzda nazorat qiladi.",
+    "stages_title": "Bitta radiator – sakkizta ishlab chiqarish bosqichi",
+    "stages_intro": "Tashqi ko‘rinishda po‘lat radiator oddiy mahsulotdek tuyuladi – metall shtamplanadi va payvandlanadi. Aslida texnologiya sakkizta bosqichni o‘z ichiga oladi:",
+    "stages": [
+      "Metallni ajratish",
+      "Shtamplash",
+      "Payvandlash",
+      "Sinash",
+      "Yuzni qayta ishlash",
+      "Gruntovka",
+      "Bo‘yash",
+      "Qadoqlash"
+    ],
+    "daily_capacity": "Biz kuniga 100 tonna metallni qayta ishlaymiz. Ba’zi radiatorlar darhol mijozlarga yuboriladi, qismi omborda qoladi. Aynan shuning uchun biz uch kun ichida yetkazib beramiz – barcha turdagi radiatorlar doim omborda mavjud.",
+    "assortment": "Hamkorlar so‘rovlari asosida assortimentni kengaytiramiz – yangi radiator turlari va o‘lchamlar qo‘shamiz.",
+    "trust": "Uterm Ukraina o‘zini shartnomaviy majburiyatlarni aniq bajaruvchi va o‘z vaqtida yetkazib beruvchi etib isbotladi. Bu sifat standartlariga bo‘lgan printsipial yondashuvimiz natijasi.",
+    "private_label": "Hamkorlarimizga ishonch – biz ular uchun Private Label shartnomasi asosida radiatorlar ishlab chiqaramiz. Bu bozorni sifatli isitish qurilmalari bilan to‘ldirishga yordam beradi. Hamkorlikda biz o‘z missiyamizni ko‘ramiz – issiq va samarali radiatorlarga ega bo‘lgan uy."
+  },
+  "en": {
+    "title": "Uterm Ukraine manufacturing process",
+    "intro": "Uterm Ukraine is the #1 manufacturer of steel panel radiators in Ukraine. In just six years we have achieved market leadership and continue to move confidently forward—expanding our product range, entering new markets and increasing production volumes.",
+    "how_we_make": "How we manufacture Uterm steel radiators",
+    "equipment": "Our shop floor is equipped with state-of-the-art machinery; we value and care for every pair of working hands. All plant employees undergo systematic training and continuously upgrade their qualifications.",
+    "development": "Company engineers studied hundreds of heating appliances and compared specifications and technical parameters of dozens of brands. The result is the Uterm radiator—a technologically advanced product made in Ukraine that stands out for its:",
+    "features": ["Energy efficiency", "Ergonomic design", "Environmental friendliness"],
+    "quality_principle": "Our top priority is the end user, who receives a high-quality heating product for spaces of any size or purpose. Therefore we built our production cycle on the principle of Swiss watchmaking:",
+    "quality_steps": [
+      "Incoming raw-material quality control",
+      "Production-line set-up with micron-level precision for every operation",
+      "Radiator assembly according to strict technological regulations",
+      "Parameter checks at every stage",
+      "Packaging and preparation for shipment anywhere in the world"
+    ],
+    "human_role": "Human involvement in the process is minimized. Operators and set-up technicians are our master watchmakers, meticulously monitoring every node on the line.",
+    "stages_title": "One radiator—eight production stages",
+    "stages_intro": "A steel radiator may look simple—just stamped and welded metal. In reality the technology includes eight production stages:",
+    "stages": [
+      "Coil decoiling",
+      "Stamping / pressing",
+      "Welding",
+      "Pressure testing",
+      "Surface treatment",
+      "Priming",
+      "Painting",
+      "Packaging"
+    ],
+    "daily_capacity": "We process 100 tonnes of metal every day. Some radiators ship immediately to customers; the rest stay in stock. That is why we can deliver within three days—radiators of every type are always available.",
+    "assortment": "At partners’ request we constantly widen our range, adding new radiator types and sizes.",
+    "trust": "Uterm Ukraine has earned a reputation for fulfilling contractual obligations precisely and shipping on time. This is the result of our uncompromising approach to quality standards.",
+    "private_label": "Our partners trust us to manufacture radiators under Private Label agreements, helping to saturate the market with high-quality heating appliances. Through partnership we fulfil our mission: warm homes equipped with economical, efficient radiators."
+  },
+  "ru": {
+    "title": "Процесс производства UTERM UKRAINE",
+    "intro": "Компания Uterm Украина – производитель стальных панельных радиаторов №1 в Украине. Всего за шесть лет мы добились лидерства и уверенно идем вперед – расширяем ассортиментный ряд, заходим на новые рынки и наращиваем объемы производства.",
+    "how_we_make": "КАК МЫ ПРОИЗВОДИМ СТАЛЬНЫЕ РАДИАТОРЫ Uterm",
+    "equipment": "Мы оснастили цех передовым оборудованием, ценим и бережем рабочие руки. Все сотрудники завода системно проходят обучение и повышают квалификацию.",
+    "development": "Инженеры компании изучили сотни отопительных приборов, сравнили характеристики и технические параметры десятков брендов. В результате специалисты разработали радиаторы Uterm – технологичный продукт украинского производства, который отличают:",
+    "features": ["энергоэффективность", "эргономичность", "экологичность"],
+    "quality_principle": "Для нас превыше всего интересы конечного потребителя, который получает качественный продукт для отопления помещений различного назначения и площади. Поэтому мы построили цикл по принципу производства швейцарских часов:",
+    "quality_steps": [
+      "контроль качества входящего сырья",
+      "наладка производственных линий с микронной точностью каждой операции",
+      "производство радиаторов по технологическому регламенту",
+      "контроль параметров на каждом этапе",
+      "упаковка и подготовка к транспортировке на любое расстояние"
+    ],
+    "human_role": "Участие человека в производственном процессе сведено к минимуму. При этом операторы и наладчики – наши мастера часового дела, которые педантично контролируют каждый узел линий в цехе.",
+    "stages_title": "ОДИН РАДИАТОР – ВОСЕМЬ ЭТАПОВ ПРОИЗВОДСТВА",
+    "stages_intro": "На первый взгляд кажется, что стальной радиатор – это простой продукт, штампованный и сваренный из металла. На самом деле технология включает восемь этапов производства:",
+    "stages": [
+      "распуск металла",
+      "штамповка",
+      "сварка",
+      "испытание",
+      "обработка поверхности",
+      "грунтование",
+      "покраска",
+      "упаковка"
+    ],
+    "daily_capacity": "Ежесуточно мы перерабатываем 100 тонн металла. Часть отопительных приборов сразу отправляется заказчикам, часть остается на складе. Именно поэтому мы обеспечиваем поставки в течение трех дней – отопительные приборы всех типов всегда в наличии.",
+    "assortment": "Также по просьбам партнеров расширяем ассортимент – добавляем новые типы радиаторов и типоразмеры.",
+    "trust": "Компания Uterm Украина зарекомендовала себя как поставщик, который четко выполняет договорные обязательства и обеспечивает отгрузку в срок. Это результат принципиального подхода к стандартам качества.",
+    "private_label": "Нам доверяют партнеры, для которых мы выпускаем радиаторы по договорам Private Label. Это способствует насыщению рынка качественными отопительными приборами. В партнерстве мы видим выполнение своей миссии – теплые дома с экономичными и эффективными радиаторами."
+  }
+}
