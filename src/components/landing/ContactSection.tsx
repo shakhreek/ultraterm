@@ -100,7 +100,11 @@ export const ContactSection: React.FC = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-foreground-muted">+998 93 505 60 60<br />+998 99 704 04 01</p>
+                <div className="space-y-2">
+                  <p className="text-foreground-muted">+998 90 999 77 66</p>
+                  <p className="text-foreground-muted">+998 93 505 60 60</p>
+                  <p className="text-foreground-muted">+998 77 061 75 75</p>
+                </div>
               </CardContent>
             </Card>
 
