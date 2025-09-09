@@ -101,9 +101,15 @@ export const ContactSection: React.FC = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <p className="text-foreground-muted">+998 90 999 77 66</p>
-                  <p className="text-foreground-muted">+998 93 505 60 60</p>
-                  <p className="text-foreground-muted">+998 77 061 75 75</p>
+                  <a href="tel:+998909997766" className="text-foreground-muted hover:text-foreground transition-colors block">
+                    +998 90 999 77 66
+                  </a>
+                  <a href="tel:+998935056060" className="text-foreground-muted hover:text-foreground transition-colors block">
+                    +998 93 505 60 60
+                  </a>
+                  <a href="tel:+998770617575" className="text-foreground-muted hover:text-foreground transition-colors block">
+                    +998 77 061 75 75
+                  </a>
                 </div>
               </CardContent>
             </Card>
