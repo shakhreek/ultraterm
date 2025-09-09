@@ -105,11 +105,13 @@ const translations = {
     'contact.phone': 'Phone Number',
     'contact.message': 'Message',
     'contact.send': 'Send Message',
+    'contact.sending': 'Sending...',
     'contact.address': 'Our Address',
     'contact.phone.label': 'Phone',
     'contact.email.label': 'Email',
     'contact.submitted': 'Message Sent',
     'contact.successMessage': 'Thank you for your inquiry. We\'ll get back to you soon!',
+    'contact.submitError': 'Submission failed',
     
     // BOR-SAN Product Page
     'borSan.title': 'BOR-SAN Steel Panel Radiators',
@@ -260,11 +262,13 @@ const translations = {
     'contact.phone': 'Telefon Raqami',
     'contact.message': 'Xabar',
     'contact.send': 'Xabar Yuborish',
+    'contact.sending': 'Yuborilmoqda...',
     'contact.address': 'Bizning Manzilimiz',
     'contact.phone.label': 'Telefon',
     'contact.email.label': 'Email',
     'contact.submitted': 'Xabar Yuborildi',
     'contact.successMessage': 'So\'rovingiz uchun rahmat. Siz bilan tez orada bog\'lanamiz!',
+    'contact.submitError': "Yuborishda xatolik yuz berdi",
     
     // BOR-SAN Product Page
     'borSan.title': 'BOR-SAN Po\'lat Panel Radiatorlari',
@@ -414,11 +418,13 @@ const translations = {
     'contact.phone': 'Номер Телефона',
     'contact.message': 'Сообщение',
     'contact.send': 'Отправить Сообщение',
+    'contact.sending': 'Отправка...',
     'contact.address': 'Наш Адрес',
     'contact.phone.label': 'Телефон',
     'contact.email.label': 'Email',
     'contact.submitted': 'Сообщение Отправлено',
     'contact.successMessage': 'Спасибо за ваш запрос. Мы свяжемся с вами в ближайшее время!',
+    'contact.submitError': 'Ошибка отправки',
     
     // BOR-SAN Product Page
     'borSan.title': 'Стальные Панельные Радиаторы BOR-SAN',
