@@ -110,11 +110,11 @@ export const ContactSection: React.FC = () => {
             {/* Map shown below the form (counts toward form height) */}
             <div className="mt-6">
               <iframe
-                title="ULTRATERM location"
+                title="ULTRATERM location (Yandex)"
                 width="100%"
                 height="300"
                 frameBorder="0"
-                src="https://www.google.com/maps?q=41.371472,69.244801&z=15&output=embed"
+                src="https://yandex.uz/map-widget/v1/-/CLUri4ke"
                 allowFullScreen
                 className="rounded-md"
               />
