@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import eliteImage from '@/assets/radiator-elite.jpg';
 import proImage from '@/assets/radiator-pro.jpg';
-import ecoImage from '@/assets/radiator-eco.jpg';
+import ecoImage from '@/assets/radiator-eco.png';
 
 export const ProductsSection: React.FC = () => {
   const { t } = useLanguage();
@@ -47,6 +47,7 @@ export const ProductsSection: React.FC = () => {
               name: t('products.eco.name'),
               description: t('products.eco.description'),
               image: ecoImage,
+              fit: 'contain',
               power: '1800W',
               warranty: '12 ' + t('products.elite.warranty'),
               price: '$449',
@@ -54,11 +55,11 @@ export const ProductsSection: React.FC = () => {
             },
           ].map((product, index) => (
             <Card key={index} className="overflow-hidden hover-scale scroll-animate border-none shadow-lg bg-surface-elevated">
-              <div className="relative">
+              <div className={`relative ${product.badge === 'Eco-Friendly' ? 'bg-white' : ''}`}>
                 <img 
                   src={product.image} 
                   alt={product.name}
-                  className="w-full h-64 object-cover"
+                  className={`w-full h-64 ${product.fit === 'contain' ? 'object-contain p-4' : 'object-cover'}`}
                 />
                 <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
                   {product.badge}
@@ -79,17 +80,8 @@ export const ProductsSection: React.FC = () => {
                   <span className="text-foreground-muted">{t('products.elite.warranty')}:</span>
                   <span className="font-semibold">{product.warranty}</span>
                 </div>
-                <div className="flex justify-between items-center pt-4 border-t border-border">
-                  <span className="text-2xl font-bold text-gradient">{product.price}</span>
-                  <Button variant="premium" onClick={() => {
-                    // if product is Premium, scroll to contact for details
-                    if (product.badge && product.badge.toLowerCase().includes('premium')) {
-                      scrollToContact();
-                    } else {
-                      // otherwise also scroll to contact as default
-                      scrollToContact();
-                    }
-                  }}>
+                <div className="flex justify-end items-center pt-4 border-t border-border">
+                  <Button variant="premium" onClick={() => scrollToContact()}>
                     {t('products.viewDetails')}
                   </Button>
                 </div>

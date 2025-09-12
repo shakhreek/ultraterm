@@ -48,7 +48,6 @@ export const Landing: React.FC = () => {
       <BorSanSection />
       <CopaSection />
       <WhyChooseSection />
-      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>
