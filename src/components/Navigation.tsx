@@ -27,7 +27,6 @@ export const Navigation: React.FC = () => {
     { key: 'nav.uterm', href: '#uterm' },
     { key: 'nav.borSan', href: '#bor-san' },
     { key: 'nav.copa', href: '#copa' },
-    { key: 'nav.testimonials', href: '#testimonials' },
     { key: 'nav.contact', href: '#contact' },
   ];
 

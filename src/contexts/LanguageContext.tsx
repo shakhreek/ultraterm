@@ -33,8 +33,8 @@ const translations = {
     
     // About Section
     'about.title': 'About ULTRATERM',
-    'about.subtitle': 'Leading the future of heating technology',
-    'about.description': 'With over a decade of expertise in heating solutions, ULTRATERM has established itself as a premier manufacturer of high-quality radiators. We combine innovative technology with elegant design to deliver heating systems that exceed expectations.',
+    'about.subtitle': 'Reliable partner for supplying heating radiators',
+    'about.description': 'ULTRATERM is a trusted distributor of high-quality radiators from leading manufacturers. With over a decade of experience in heating solutions, we bring premium products and reliable supply to homes and businesses.',
     'about.experience': 'Years of Excellence',
     'about.products': 'Product Models',
     'about.customers': 'Happy Customers',
@@ -190,8 +190,8 @@ const translations = {
     
     // About Section
     'about.title': 'ULTRATERM Haqida',
-    'about.subtitle': 'Isitish texnologiyasi kelajagini yetaklaymiz',
-    'about.description': 'O\'n yildan ortiq isitish yechimlari sohasidagi tajriba bilan ULTRATERM yuqori sifatli radiatorlarning yetakchi ishlab chiqaruvchisi sifatida o\'zini namoyon etdi. Biz innovatsion texnologiyani nafis dizayn bilan birlashtirib, kutilganidan oshib ketadigan isitish tizimlarini taqdim etamiz.',
+    'about.subtitle': 'Isitish radiatorlarini yetkazib berishda ishonchli hamkor',
+    'about.description': 'ULTRATERM yetakchi ishlab chiqaruvchilardan yuqori sifatli radiatorlarni yetkazib beruvchi ishonchli distribyutordir. O\'n yildan ortiq tajriba bilan biz uy va korxonalar uchun premium mahsulotlarni va barqaror ta\'minotni taqdim etamiz.',
     'about.experience': 'Yillik Tajriba',
     'about.products': 'Mahsulot Modellari',
     'about.customers': 'Mamnun Mijozlar',
@@ -346,8 +346,8 @@ const translations = {
     
     // About Section
     'about.title': 'О ULTRATERM',
-    'about.subtitle': 'Ведущий производитель будущего отопительных технологий',
-    'about.description': 'Имея более десяти лет опыта в области отопительных решений, ULTRATERM зарекомендовал себя как ведущий производитель высококачественных радиаторов. Мы сочетаем инновационные технологии с элегантным дизайном для создания отопительных систем, превышающих ожидания.',
+    'about.subtitle': 'Надежный поставщик радиаторов отопления',
+    'about.description': 'ULTRATERM является надежным дистрибьютором высококачественных радиаторов от ведущих производителей. Имея более десяти лет опыта в отрасли, мы поставляем премиальную продукцию и обеспечиваем стабильную логистику для домов и предприятий.',
     'about.experience': 'Лет Совершенства',
     'about.products': 'Моделей Продукции',
     'about.customers': 'Довольных Клиентов',
