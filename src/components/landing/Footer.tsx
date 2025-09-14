@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-border mt-12 pt-8 text-center">
           <div className="flex items-center justify-center space-x-4 mb-4">
             <img 
-              src="/lovable-uploads/logo.png" 
+              src="/images/logo.png" 
               alt="ULTRATERM Logo"
               className="h-20 w-auto"
             />

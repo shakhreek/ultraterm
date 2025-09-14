@@ -47,7 +47,7 @@ export const Navigation: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/logo.png" 
+              src="/images/logo.png" 
               alt="ULTRATERM Logo"
               className="h-20 w-auto"
             />
